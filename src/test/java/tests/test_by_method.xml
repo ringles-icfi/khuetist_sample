@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+    <test name="method1">
+        <classes>
+            <class name="tests.test_by_method">
+                <methods>
+                    <include name="method1"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="method2">
+        <classes>
+            <class name="tests.test_by_method">
+                <methods>
+                    <include name="method2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="method3">
+        <classes>
+            <class name="tests.test_by_method">
+                <methods>
+                    <include name="method3"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+
+
+
